@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-header h3{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(to right, black,brown,#e27272);
+
+}
+.main-nav ul{
+  height: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  list-style: none;
+  background-color: #000;
+  color: #fff;
+  /* border: 2px solid red; */
+}
+.main-nav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    
+}
+.main-nav ul li{
+    padding: 15px;
+    padding-left: 5%;
+    font-weight: bold;
+}
+.main-nav ul input{
+  width: 25%;
+  margin-top: 10px;
+  height: 50%;
+}
+.heading-offer{
+    color:#fff;
+    background: url(./assets/asset\ 3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.offer{
+    border: 2px solid rgb(243, 240, 240);
+    width: 55%;
+    /* background-color: #000000;
+    opacity: 0.6; */
+    position: relative;
+    top: 35%;  
+    left: 10%;
+    border-color: transparent;
+}
+.offer{
+    background-color: rgba(0, 0,0, 0.5);
+}
+/* ::::::::::::::::::::::::::::::::::section::::::::::::::::::::::: */
+section{
+    background-color: #d3d0d0;
+}
+.shoes{
+    padding: 3%;
+}
+.shoe-section{
+    background-color: #7e7b7b;
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.shoe-section h1{
+    padding-left: 10px;
+}
+.shoes-colllection{
+    display: flex;
+    padding: 10px;
+    width: 10rem;
+    /* flex-direction: row; */
+    
+    
+}
+.shoestypes{
+    display: flex;
+}
+.shoe-type{
+    /* border: 2px solid; */
+    width: 100%;
+    background-color: #504e4e;
+    text-align: center;
+}
+.shoe-type img{
+    width: 100%;
+
+}
+.shoe-type p{
+    align-items: center;
+    color: #fff; 
+}
+.last{
+  background: linear-gradient(to right,grey, black);
+  padding: 5%;
+
+}
+.last-detals{
+    background: linear-gradient(to right, black,brown,#e27272);
+    box-shadow: 0px 0px 10px rgb(161, 159, 159);
+}
+.last-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.last-left{
+    width: 50%;
+    color: #fff;
+}
+.last-left p{
+    margin-top: 5%;
+}
+.last-right{
+    /* border: 2px solid rgb(21, 255, 0); */
+    width: 40%;
+}
+.last-right img{
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgb(253, 251, 251);
+}
+.last-right img:hover{
+    position: relative;
+    top: 5%;
+    /* transition: 0.5s; */
+    transform: scale(1.2);
+}
