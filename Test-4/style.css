@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    
+}
+.wrapper{
+    background: url(./assets/hero-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    /* background-color: rgb(0,0,0,0.5); */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(59, 59, 59);
+    position: fixed;
+    width: 100%;
+    /* top: 0%; */
+}
+nav p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    color: #fff;
+    list-style: none;  
+    padding: 10px;
+}
+nav ul a{
+    color: #fff;
+    margin: 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.hamburger{
+    display: none;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 620px;
+    background-color: rgb(0,0,0,0.4);
+
+}
+.main-hero {
+    text-align: center;
+}
+.main-hero h1{
+    font-size: 60px;
+}
+.main-hero p{
+    /* margin-top: 15px; */
+    font-size: 20px;
+}
+.main-hero button{
+    height: 50px;
+    width: 20%;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.main-hero button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+
+
+/* :::::::::::::::::::::::::::service section:::::::::::  */
+.services{
+    padding: 20px;
+    background-color: rgb(233, 233, 233);  
+}
+.our-services{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+
+}
+.service-details{
+    width: 31%;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.service-boxes{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.service-box img{
+    width: 35%;
+    border-radius: 50%;
+}
+.service-box h3{
+  padding: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.service-box p{
+  padding: 5%;
+  color:rgb(32, 31, 31);
+}
+
+/* ::::::::::::::::::::::::::discription:::::::::::::::::::::: */
+.aboutUs{
+    padding: 20px;
+    background-color:  rgb(233, 233, 233); 
+}
+.discription p{
+  color:rgb(32, 31, 31);
+   margin-top: 10px; 
+}
+.description-detail {
+    /* border: 2px solid rgb(0, 183, 255); */
+    padding: 10px;
+}
+.description-detail ul{
+    margin-left: 20px;
+}
+
+/* :::::::::::::::::::::::::::Contact Us:::::::::::  */
+.contactUs{
+    padding: 20px;
+    background-color:  rgb(233, 233, 233); 
+}
+.contact-details{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.location ul{
+    list-style: none;
+}
+.location ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 20px;
+    color:rgb(48, 46, 46);
+
+}
+.messsages input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px; 
+    padding: 10px;
+}
+.messsages textarea{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px; 
+    padding: 10px;
+
+}
+.messsages button{
+    margin-top: 10px;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px; 
+    border: transparent;
+    border-radius: 5px;
+    background-color:rgb(80, 72, 72) ;
+    color: #fff;
+}
+.messsages button:hover{
+    cursor: pointer;
+    background-color:rgb(99, 90, 90) ;
+    color: #fff;
+    transition: .2s ease;
+
+}
+
+@media screen and (max-width:900px){
+    
+    .service-details{
+        width: 30%;
+        align-items: center;
+        margin: auto;
+    }
+    .location{
+        width: 70%;
+    }
+    .messsages{
+        width: 40%;
+    }
+}

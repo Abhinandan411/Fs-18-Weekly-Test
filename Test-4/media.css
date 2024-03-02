@@ -1,0 +1,55 @@
+@media screen and (max-width:450px){
+
+
+    .nav-left{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .main-hero h1{
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .main-hero p{
+        font-size: 15px;
+    }
+    .main-hero button{
+        width: 45%;
+    }
+
+    .service-boxes{
+       display: flex;
+       flex-direction: column;
+    }
+  
+    .service-details{
+        margin-top: 10%;
+        width: 90%;
+    }
+
+
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .location {
+        width: 100%;
+    }
+    .location ul li{
+        font-size: 15px;
+    }
+    .messsages{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .messsages input{
+        width: 100%;
+        height: 35px;
+    }
+    .messsages textarea{
+        width: 100%;
+        height: 90px;
+    }
+}
