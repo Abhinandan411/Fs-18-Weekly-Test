@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(67, 125, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.age-container{
+   /* border: 1px solid black;  */
+   background-color: rgb(168, 188, 188);
+   box-shadow: 0 0 15px 0 black ;
+   border-radius: 15px;
+   padding: 2.5rem;
+   width: 500px;
+   height: 350px;
+   text-align: center;
+}
+.age-header h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+label{
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: .5rem;
+}
+.age-input{
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    padding: .5rem;
+    font-size: 1rem;
+}
+.age-button{
+  margin-top: 3.5rem;
+}
+.age-button button{
+    margin-bottom: 10px;
+    width: 160px;
+    height: 30px;
+    background-color:rgb(67, 125, 125); border: transparent;
+    color: #fff;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.result{
+   margin-top: 10px;
+   font-size: 1.2rem;
+   font-weight: bold
+   ;
+}
