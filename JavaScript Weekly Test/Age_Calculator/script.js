@@ -31,9 +31,6 @@ calculateBtn.addEventListener("click" , ()=>{
         // const nowDay = currentDay.currentDay();
         const finalDay = currentDay - dobDay;
 
-
-
-
         ageResult.innerHTML = `🎉You age is : ${ageYear}-year  ${finalMonth}-month and ${finalDay}-Day`;
       }
 })

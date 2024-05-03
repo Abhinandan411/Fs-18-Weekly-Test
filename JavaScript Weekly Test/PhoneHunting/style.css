@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+#header{
+    padding: 2rem;
+    background-color: #0d6efd0d;
+}
+.button{
+    font-size: 13px;
+    font-weight: 600;
+    width: 10%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(50, 50, 197);
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero{
+ margin-top: 4rem;
+ margin-bottom: 3rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.hero h1{
+ font-size: 3.5rem;
+ margin-bottom: 1rem;
+}
+.hero p{
+  font-size: 20px;
+}
+#home-btn{
+    margin-top: 2rem;
+}
+.hero-phones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
+
+
+#Search-section{
+    padding: 2rem;
+}
+
+#results{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+}
+.search-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-area-input{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+#searchinput{
+    height: 50px;
+    width: 70%;
+    padding: 1rem;
+}
+#searchbtn{
+    padding: 1rem;
+    width: 25%;
+    cursor: pointer;
+    background-color: rgb(50, 50, 197);
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+}
+
+.product{
+    margin-top: auto;
+    margin-bottom: auto;
+   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+   width: 30% ;
+   height: 550px;
+   background-color: #fff;
+   border-radius: 20px;
+   text-align: center;
+
+}
+.product p{
+ text-align: center;
+ padding: 2rem;
+
+}
+.product button{
+    font-size: 13px;
+    font-weight: 600;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(50, 50, 197);
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+}
+.product button:hover{
+    background-color: rgb(32, 32, 151);
+    transition: .2s ease;
+}
+.product-image{
+    padding: 2rem;
+    width: 55%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.loading{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loading img{
+    width: 40px;
+    
+}
+
+#showmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#showmore button{
+
+    font-size: 13px;
+    font-weight: 600;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(50, 50, 197);
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+}
+
+
+
+
+#footer{
+    padding: 2rem;
+    background-color: #0d6efd0d;
+}
+.footer-main  {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main h4{
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+}
+.footer-logos{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logos p{
+    font-size: 1.5rem;
+}
+
+/* Modal container */
+.modal {
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's on top of other content */
+    overflow: auto; /* Allow vertical scroll if content exceeds height */
+    display: none; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 80%; /* Limit width if needed */
+    max-height: 80%; /* Limit height if needed */
+    overflow-y: auto; /* Allow vertical scroll if content exceeds height */
+}
+
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closebtn{
+margin-top: .5rem;
+  background-color: red;
+  padding: 1rem;
+  border: transparent;
+  border-radius: 10px;
+  color: white;
+
+}
