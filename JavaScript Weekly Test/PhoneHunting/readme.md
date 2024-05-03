@@ -31,4 +31,5 @@ Explain how users can use the search functionality, view phone details on defaul
 
 [🎯Hosted Link](https://abhinandan411.github.io/Fs-18-Weekly-Test/JavaScript%20Weekly%20Test/PhoneHunting/index.html)
 
-
+### Project OutPut looks like 😃
+![weekly-test-4-JS](https://github.com/Abhinandan411/Fs-18-Weekly-Test/assets/131553633/2343282e-bcaf-4d49-aae1-6c5a6671af60)
