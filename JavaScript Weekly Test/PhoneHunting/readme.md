@@ -29,6 +29,6 @@ Explain how users can use the search functionality, view phone details on defaul
 
 ```
 
-[🎯Hosted Link]()
+[🎯Hosted Link](https://abhinandan411.github.io/Fs-18-Weekly-Test/JavaScript%20Weekly%20Test/PhoneHunting/index.html)
 
 
